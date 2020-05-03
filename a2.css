@@ -1,0 +1,431 @@
+body {
+ 	background-color: antiquewhite;
+ 	width: 750px;
+}
+img {
+	height: 500px;
+	position: absolute;
+	left: 950px;
+	top: -70px
+}
+/*title*/
+	.title1 {
+	/*font*/
+	font-family: Arial Narrow, sans-serif;
+	font-weight: lighter;
+	color: #424242; /*grey*/;
+	font-stretch: extra-condensed;
+	font-size: 31px;
+	text-transform: uppercase;
+	letter-spacing: -1.5px;
+	word-spacing: -3px;
+	/*position*/
+	position: absolute;
+	left: 50px;
+	top: 10px;
+}
+	.title2 {
+	/*font*/
+	font-family: American Typewriter, serif;
+	font-weight: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: #CA884B; /*ornge*/
+	/*position*/
+	position: absolute;
+	left: 50px;
+	top: 40px;
+}
+	.title3 {
+	/*font*/
+	font-family: impact, fantasy;
+	font-weight: bold;
+	font-size: 60px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #424242; /*grey*/
+	text-shadow: 2px 3px grey;
+	/*position*/
+	position: absolute;
+	left: 230px;
+	top: -25px;
+}
+	/*line*/
+	.title4 {
+	border: 6px solid #CA884B; /*ornge*/
+	position: absolute;
+	left: 40px;
+	top: 110px;
+	width: 1050px
+}
+	.title5 {
+	border: 0.5px solid white;
+	position: absolute;
+	left: 43.5px;
+	top: 115px;
+	width: 1049px
+}
+
+/*profile*/
+	.pro1 {
+	/*font*/
+	color: #CA884B/*ornge*/;
+	font-family: American Typewriter, serif;
+	font-weight: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 30px;
+	/*position*/
+	position: absolute;
+	left: 70px;
+	top: 140px;
+	}
+	/*icon*/
+	.profileicon {
+	position: absolute;
+	left: 80px;
+	top: 205px;
+	word-spacing: 170px;
+	line-height: 4;
+	}
+	#eicon {
+	position: absolute;
+	left: 160px;
+	top: 162px;
+	}
+	/*text*/
+	.profiletext {
+	color: #424242; /*grey*/;
+	font-family: American Typewriter, serif;
+	font-weight: normal;
+	font-size: 20px;
+	}
+	/*text position*/
+	#name {
+	position: absolute;
+	left: 115px;
+	top: 195px;
+	word-spacing: 6px
+	}
+	#birthday {
+	position: absolute;
+	left: 115px;
+	top: 265px;
+	}
+	#gender {
+	position: absolute;
+	left: 120px;
+	top: 325px;
+	}
+	#phone {
+	position: absolute;
+	left: 325px;
+	top: 197px;
+	}
+	#location {
+	position: absolute;
+	left: 325px;
+	top: 255px;
+	}
+	#email {
+	position: absolute;
+	left: 280px;
+	top: 350px;
+	}
+
+/*education*/
+	.edu1 {
+	/*font*/
+	color: #CA884B/*ornge*/;
+	font-family: American Typewriter, serif;
+	font-weight: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 30px;
+	/*posution*/
+	position: absolute;
+	left: 590px;
+	top: 140px;
+	}
+	.edu2 {
+	/*font*/
+	color: #424242; /*grey*/;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 40px;
+	/*position*/
+	position: absolute;
+	left: 590px;
+	top: 200px;
+	}
+
+/*experience*/
+	.exp1 {
+	/*font*/
+	color: #CA884B/*ornge*/;
+	font-family: American Typewriter, serif;
+	font-weight: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 30px;
+	/*posution*/
+	position: absolute;
+	left: 70px;
+	top: 430px;
+	}
+	.exp2 {
+	/*font*/
+	color: #424242; /*grey*/;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 40px;
+	/*position*/
+	position: absolute;
+	left: 70px;
+	top: 490px;
+	}
+
+/*etracurricular activities*/
+	.extra1 {
+	/*font*/
+	color: #CA884B/*ornge*/;
+	font-family: American Typewriter, serif;
+	font-weight: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 30px;
+	/*posution*/
+	position: absolute;
+	left: 590px;
+	top: 405px;
+	}
+	.extra2 {
+	/*font*/
+	color: #424242; /*grey*/;
+	font-family: serif;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 40px;
+	/*position*/
+	position: absolute;
+	left: 590px;
+	top: 465px;
+	}
+
+/*interests*/
+	.interest1 {
+	/*font*/
+	color: #CA884B/*ornge*/;
+	font-family: American Typewriter, serif;
+	font-weight: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	text-align: left;
+	line-height: 30px;
+	/*position*/
+	position: absolute;
+	left: 70px;
+	top: 700px;
+	}
+	/*icon*/
+	.interesticon {
+	position: absolute;
+	left: 75px;
+	top: 780px;
+	word-spacing: 100px;
+	line-height: 10;
+	}
+	.interesttext {
+	/*font*/
+	color: #424242; /*grey*/;
+	font-family: American Typewriter, serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 18px;
+	}
+	/*text position*/
+	#film {
+	position: absolute;
+	left: 60px;
+	top: 870px;
+	}
+	#music {
+	position: absolute;
+	left: 210px;
+	top: 860px;
+	text-align: center;
+	}
+	#movie {
+	position: absolute;
+	left: 457px;
+	top: 860px;
+	}
+	#food {
+	position: absolute;
+	left: 60px;
+	top: 1050px;
+	}
+	#sport {
+	position: absolute;
+	left: 245px;
+	top: 1050px;
+	}
+	#dog {
+	position: absolute;
+	left: 464px;
+	top: 1050px;
+	}
+	
+
+/*skills*/
+	.s1 {
+	/*font*/
+	color: #CA884B/*ornge*/;
+	font-family: American Typewriter, serif;
+	font-weight: normal;
+	font-size: 30px;
+	text-transform: uppercase;
+	/*position*/
+	position: absolute;
+	left: 590px;
+	top: 630px;
+	}
+
+/*lines*/
+.vl {
+	border: 1px solid #CA884B/*ornge*/;
+  	height: 1050px;
+  	position: absolute;
+  	left: 550px;
+  	top: 155px;
+	}
+.l1 {
+	border: 1px solid #CA884B/*ornge*/;
+	border-left-width: 510px;
+	position: absolute;
+	left:40px ;
+	top: 420px;
+}
+.l2 {
+	border: 1px solid #CA884B/*ornge*/;
+	border-right-width: 560px;
+	position: absolute;
+	left: 550px;
+	top: 400px;
+}
+.l3 {
+	border: 1px solid #CA884B/*ornge*/;
+	border-left-width: 510px;
+	position: absolute;
+	left: 40px;
+	top: 690px;
+}
+.l4 {
+	border: 1px solid #CA884B/*ornge*/;
+	border-right-width: 560px;
+	position: absolute;
+	left: 550px;
+	top: 630px;
+}
+
+/*skills chart*/
+/*ruler*/
+	.r1vertical {
+	border: 1px solid #424242; /*grey*/;
+  	height: 380px;
+  	position: absolute;
+  	left: 670px;
+  	top: 755px;
+}
+	.r2rookie {
+	border: 1px solid #424242; /*grey*/;
+  	border-right-width: 440px;
+  	position: absolute;
+  	left: 660px;
+  	top: 1135px;
+	}
+	.r3average {
+	border: 1px dashed #424242; /*grey*/;
+  	border-left-width: 30px;
+  	width: 400px;
+  	position: absolute;
+  	left: 660px;
+  	top: 946px;
+	}
+	.r4expert {
+	border: 1px dashed #424242; /*grey*/;
+  	border-left-width: 30px;
+  	width: 400px;
+  	position: absolute;
+  	left: 660px;
+  	top: 755px;
+	}
+	.rulertext {
+	/*font*/
+	color: #424242; /*grey*/;
+	font-family: American Typewriter, serif;
+	font-weight: lighter;
+	text-transform: uppercase;
+	font-size: 17px;
+	line-height: 190px;
+	/*position*/
+	position: absolute;
+	left: 570px;
+	top: 645px;
+	}
+/*chart lines*/
+	.ctemplate {
+	border: 25px solid;
+	position: absolute;
+	}
+	#englishline {
+  	left: 690px;
+  	color:#CCA142/*yellow*/;
+  	height: 300px;
+  	top: 785px
+	}
+	#germanyline {
+	left: 800px;
+	color: #388C62/*green*/;
+	height: 150px;
+	top: 935px
+	}
+	#psline {
+	left: 880px;
+	color:#D1825B/*red*/;
+	height: 250px;
+	top: 835px
+	}
+	#ailine {
+	left: 940px;
+	color: #82BBB5/*blue*/;
+	height: 130px;
+	top: 955px
+	}
+	#arline {
+	left: 1025px;
+	color: #CA884B/*ornge*/;
+	height: 250px;
+	top: 835px
+	}
+/*chart text*/
+.ctext {
+	/*font*/
+	font-family: American Typewriter, serif;
+	color: #424242; /*grey*/;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	word-spacing: 33px;
+	/*position*/
+	position: absolute;
+	left: 695px;
+  	top: 1135px;	
+}
+
